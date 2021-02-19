@@ -23,8 +23,8 @@ class ImagesFactory extends Factory
     {
         return [
             'url' => $this->faker->imageUrl(1280,720),
-            'imageable_id' => $this->faker->rand(1,100),
-            'imageable_type' => $this->faker->text(300),
+            'imageable_id' => $this->faker->word(6),
+            'imageable_type' => $this->faker->word(6),
         ];
     }
 }

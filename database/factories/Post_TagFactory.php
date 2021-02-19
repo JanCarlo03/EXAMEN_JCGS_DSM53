@@ -5,7 +5,7 @@ namespace Database\Factories;
 use App\Models\Post_tag;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class PostTagFactory extends Factory
+class Post_TagFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.

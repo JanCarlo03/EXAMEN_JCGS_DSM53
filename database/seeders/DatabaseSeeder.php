@@ -7,8 +7,8 @@ use App\Models\Users;
 use App\Models\Category;
 use App\Models\Tags;
 use App\Models\Images;
-use App\Models\Post;
-use App\Models\PostTag;
+use App\Models\Posts;
+use App\Models\Post_tag;
 
 
 
@@ -28,6 +28,6 @@ class DatabaseSeeder extends Seeder
         Images::factory(10)->create();
         Posts::factory(10)->create();
         Tags::factory(10)->create();
-        PostTag::factory(10)->create();
+        Post_tag::factory(10)->create();
     }
 }

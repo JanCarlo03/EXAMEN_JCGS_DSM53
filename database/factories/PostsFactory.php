@@ -24,9 +24,9 @@ class PostsFactory extends Factory
         return [
             'title' =>$this->faker->sentence,
             'slug' => $this->faker->slug,
-            'description' => $this->faker->text(800),
+            'descripcion' => $this->faker->text(6),
             'image' => $this->faker->imageUrl(12800,720),
-            'extract' => $this->faker->text(2),
+            'extract' => $this->faker->text(6),
 
             'user_id' => rand(1,10),
             'category_id' => rand(1,10),
